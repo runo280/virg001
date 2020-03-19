@@ -68,6 +68,6 @@ if __name__ == '__main__':
     index = 0
     for item in items:
         index += 1
-        print('Processing feed #' + str(index))
+        print('Processing feed #' + str(index) + ' -> ' + item['url'])
         read_article_feed(item)
         time.sleep(15)
