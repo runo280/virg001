@@ -3,9 +3,9 @@ name: find
 on:
   schedule:
     - cron:  '0 */2 * * *' # every two hour
-#  push:
-#    branches:
-#      - master
+  push:
+    branches:
+      - master
 
 jobs:
   build:
